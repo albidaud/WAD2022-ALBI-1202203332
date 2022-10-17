@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="MODUL1 ALBI.css" />
+    <title>MODUL1 ALBI</title>
+    <style>
+        .main-container {
+            text-align: center;
+        }
+
+        .ytvideo {
+            text-align: center;
+        }
+
+        body{
+            margin:0;
+            padding:0;
+        }
+
+        #container{
+            width: 950px;
+            margin:0 auto;
+        }
+
+        .column1{
+            width: 350px;
+            float:left;
+            padding: 10px 125px;
+        }
+
+        .column2{
+            width:350px;
+            float:left;
+            padding: 10px 125px;
+        }
+
+        .tentangKami{
+            text-align: center;
+            padding: 100px;
+        }
+
+        .lokasiKami{
+            text-align: center;
+            padding: 200px;
+        }
+    </style>
+</head>
+<body>
+    <!-- NavBar START -->
+    <div class="fContainer">
+        <nav class="wrapper">
+            <div class="brand">
+                <img src="logo-ead.png" alt="EAD Logo" width="120" height="35"/>
+            </div>
+            <ul class="navigation">
+                <li><a>Tentang Kami</a></li>
+                <li><a>Lokasi Kami</a></li>
+                <li><a>Jenis Mobil</a></li>
+                <li><a>Daftar Reservasi</a></li>
+            </ul>       
+        </nav>
+    </div>
+
+    <!-- Header -->
+    <main>
+        <div class="main-container">
+            <h1>Reservasi Kendaraan WAD</h1>
+            <p>Solusi sewa kendaraan bersahabat untuk Kamu!</p>
+        </div>
+    </main>
+
+    <!-- iFrame YouTube -->
+    <yt>
+        <div class="ytvideo">
+            <h3>Video Pengenalan EAD</h3>
+            <iframe width="450" height="250" src="https://www.youtube.com/embed/AwMeQJ_u73I" title="EAD Youtube Video"
+            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+        </div>
+    </yt>
+
+    <!-- Tentang Kami -->
+    <div class="container">
+        <div class="tentangKami">
+            <h2>Tentang Kami</h2>
+        </div>
+        <div class="column1">
+            <p class="paragraph">Enterprise Application Development atau yang biasa disebut dengan EAD merupakan salah satu Laboratorium yang dimiliki oleh Fakultas Rekayasa Industri. Laboratorium EAD berada di bawah kelompok keahlian ESD yang mengelola praktikum terkait mata kuliah lanjutan Software Development.
+            </p>
+        </div>
+        
+        <div class="column2">
+        <!--        <h3 class="heading">Tentang Kami</h3> -->
+            <p class="paragraph">Beberapa praktikum yang dinaungi oleh Laboratorium EAD seperti Object Oriented Programming, Web Application Development, dan Mobile Application Development. Laboratorium WAD juga memiliki beberapa event seperti InsightTalk, Priority (Prodase Charity), serta pelatihan
+            </p>
+        </div>
+    </div>
+
+        <!-- Lokasi Kami -->
+        <div class="container2">
+            <div class="lokasiKami">
+                <h2>Lokasi Kami</h2>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31884.175930514786!2d103.87348412260091!3d-2.659186616292246!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e3ab898c2dbcb45%3A0x4039d80b220d920!2sKeluang%2C%20Kec.%20Keluang%2C%20Kabupaten%20Musi%20Banyuasin%2C%20Sumatera%20Selatan!5e0!3m2!1sid!2sid!4v1665926098221!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+            
+        <div class="Form">
+            <h1 align="center">Pendaftaran Mobil</h1>
+            
+            <form action="" method="POST">
+            <table align="center">
+                <tr>
+                    <td width="250">Alamat Email</td>
+                    <td><input type="text" placeholder="gunakan Gmail atau Yahoo!" size="30"></td>
+                </tr>
+                <tr>
+                    <td width="250">Nama Lengkap</td>
+                    <td><input type="text" size="30"></td>
+                </tr>
+                <tr>
+                    <td>No HP</td>
+                    <td><input type="number" size="20"></td>
+                </tr>
+                <tr>
+                    <td>Alamat</td>
+                    <td><textarea></textarea></td>
+                </tr>
+                <tr>
+                    <td>Jenis Mobil</td>
+                    <td><select>
+                        <option>- select -</option>
+                        <option>ESEMKA</option>
+                        <option>CyberTruck</option>
+                        <option>Hyundai IONIQ 5</option>
+                        <option>Daihatsu Xenia</option>
+                    </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Membutuhkan Supir?</td>
+                </tr>
+                <tr>
+                    <td align="right"><input type="radio" name="JK">Ya
+                        <input type="radio" name="JK">Tidak
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right"><input type="reset" value="Reset">
+                        <input type="submit" value="Kirim">
+                    </td>
+                </tr>
+            </table>
+            </form>
+        </div>
+</body>
+</html>
