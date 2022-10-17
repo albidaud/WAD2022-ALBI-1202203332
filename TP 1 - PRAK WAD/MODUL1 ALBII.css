@@ -1,0 +1,9 @@
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: lightcyan;
+    width: 1500px;
+    font-size: 15px;
+    padding: 20px;
+    }
