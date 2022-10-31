@@ -18,7 +18,7 @@
             <a class="nav-link active text-white" href="Albi_home.php">Home</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link text-white" href="Albibooking.php">Booking</a>
+            <a class="nav-link text-white" href="Albi_booking.php">Booking</a>
         </li>
     </ul>
 
@@ -56,7 +56,7 @@
 
     <!-- CARDS -->
     <div class="container">
-        <div class="col row-cols-1 row-cols-md-3 g-4">
+        <div class="row row-cols-1 row-cols-md-3 g-4">
             <div class="col">
                 <div class="card h-100">
                     <img src="Hyundai Creta.jpg" class="card-img-top" alt="...">

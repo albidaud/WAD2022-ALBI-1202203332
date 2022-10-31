@@ -36,7 +36,7 @@
             </div>
             <div class="mb-3">
                 <label for="date" class="form-label">Book Date</label>
-                <input type="text" class="form-control" id="date" name="date">
+                <input type="date" class="form-control" id="date" name="date">
             </div>
             <div class="mb-3">
                 <label for="time" class="form-label">Start Time</label>
