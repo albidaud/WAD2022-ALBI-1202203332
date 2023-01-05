@@ -1,0 +1,24 @@
+.jumbotron {
+    background-image: url(https://www.maujual.com/static/landing-page/assets/images/home-web-banner1.9ad78545b739.webp);
+    background-size: cover;
+    height: 720px;
+    text-align: center;
+    margin-top: -60px;
+}
+
+.jumbotron .display-4 {
+    margin-top: 200px;
+    color: white;
+}
+
+.jumbotron p {
+    font-size: 20px;
+    color: white;
+}
+
+.jumbotron .btn {
+    background-color: rgb(89, 9, 126);
+    border: none;
+    border-radius: 30px;
+    margin-top: 80px;
+}
